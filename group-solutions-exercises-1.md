@@ -1,5 +1,5 @@
 # Information Systems Management of Operations, Quality and Processes
-## Group MIAL (Mave, I, Anne, Louis)
+## Group MIAL (Mave, Isberg, Anne, Louis)
 ## Exercise 1 — Logic Diagram
 
  ## Problem
