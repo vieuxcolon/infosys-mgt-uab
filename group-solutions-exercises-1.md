@@ -105,7 +105,7 @@ flowchart LR
 
 ---
 
-# Exercise 2 — Milwaukee Paper ES/EF and LS/LF Network
+# Exercise 2 — Milwaukee ES/EF and LS/LF Network
 
  ## Objective
 
