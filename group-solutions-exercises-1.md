@@ -1,27 +1,13 @@
 # Information Systems Management of Operations, Quality and Processes
 ## Group Solutions
-
- This document contains the solutions for Exercises 1–3, using **ROY (Activity-on-Node)** diagrams and **Critical Path Method (CPM)** calculations.
-
- ### Diagram colour convention
-
- | Colour | Meaning |
-| --- | --- |
-| 🟢 Green | Start / Finish |
-| 🔴 Red | Critical-path activity |
-| 🔵 Blue | Non-critical activity |
-| Thick red arrow | Critical-path relationship |
-
----
-
- # Exercise 1 — Logic Diagram
+## Exercise 1 — Logic Diagram
 
  ## Problem
 
  Draw a logic diagram by placing the activities in boxes and connecting them according to their precedence relationships.
 
  ### Given precedence relationships
-
+ 
  1. `U → G → H`
 2. `Start → E`
 3. `E → U`
@@ -52,7 +38,7 @@
 - P → K
 - R → K
 
- ## ROY / Logic Diagram
+ ## Logic Diagram
 ```mermaid
 flowchart LR
     START(("START"))
@@ -117,15 +103,9 @@ flowchart LR
 
  Therefore, the diagram represents the complete logical dependency structure given in the exercise.
 
- > **Note:** No activity durations are provided for Exercise 1, so a critical path cannot be calculated from the information supplied.
-
 ---
 
-Below is the corrected Exercise 2 solution based on the **seven activity branches you provided**. The key point is that the **forward pass determines ES/EF**, while the **backward pass determines LS/LF** starting from the project completion time of 36.
-
- Exercise 2 — Milwaukee Paper ES/EF and LS/LF Network
-
-# Exercise 2 — Milwaukee Paper
+# Exercise 2 — Milwaukee Paper ES/EF and LS/LF Network
 
  ## Objective
 
