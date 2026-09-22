@@ -981,7 +981,7 @@ $$
 
 ---
 
- ### Exercise 2 — CPM / Network Scheduling
+ ### Exercise 2 — Critical Path Method (CPM) / Network Scheduling
 
  - **Input:** A predefined activity network with **activity durations** and dependencies.
 - **Process:**
