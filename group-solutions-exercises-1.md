@@ -995,10 +995,6 @@ $$
 - **Main question:** **When can each activity start/finish, and which activities determine the project duration?**
 - **Key result:** **Critical Path + Project Duration.**
 
- In short:
-
- > **Exercise 2 = Schedule the network using CPM.**
-
 ---
 
  ### Exercise 3 — ROY Network / Critical Path
@@ -1017,10 +1013,6 @@ $$
 - **Arrows:** Precedence relationships / direction of flow.
 - **Main question:** **What is the sequence of dependent activities that determines the project duration?**
 - **Key result:** **Critical Path + Project Duration.**
-
- In short:
-
- > **Exercise 3 = Build the ROY network and find the critical path.**
 
 ---
 
