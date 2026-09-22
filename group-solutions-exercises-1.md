@@ -1,5 +1,5 @@
 # Information Systems Management of Operations, Quality and Processes
-## Group MALT (Mave, Thea, Anne, Louis)
+## Group MALT (Mave,  Anne, Louis, Thea)
 ## Exercise 1 — Logic Diagram
 
  ## Problem
