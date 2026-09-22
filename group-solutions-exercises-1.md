@@ -951,7 +951,7 @@ $$
 | **Exercise 2** | **F → G → H → E** | **36** |
 | **Exercise 3** | **A → B → C → E** | **19 weeks** |
 
-## Key concepts
+## Concepts Revision
 
  These exercises apply the following project-management concepts:
 
@@ -966,38 +966,3 @@ $$
 
 ---
 
- ## Summary
-
- ### Exercise 1
-
- **Logic network established from the supplied precedence relationships.**
-
- No durations were supplied, so a critical path cannot be calculated.
-
- ### Exercise 2
-
- **Critical Path:**
-
- $$
-\boxed{F \rightarrow G \rightarrow H \rightarrow E}
-$$
-
- **Project Duration:**
-
- $$
-\boxed{36}
-$$
-
- ### Exercise 3
-
- **Critical Path:**
-
- $$
-\boxed{A \rightarrow B \rightarrow C \rightarrow E}
-$$
-
- **Project Duration:**
-
- $$
-\boxed{19\text{ weeks}}
-$$
