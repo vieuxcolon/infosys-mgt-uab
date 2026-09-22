@@ -105,7 +105,7 @@ flowchart LR
 
 ---
 
-# Exercise 2 — Critical Path Method (CP) - Milwaukee ES/EF and LS/LF Network
+# Exercise 2 — Critical Path Analysis (CPA) - Milwaukee ES/EF and LS/LF Network
 
  ## Objective
 
