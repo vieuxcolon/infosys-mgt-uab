@@ -53,6 +53,57 @@
 - R → K
 
  ## ROY / Logic Diagram
+```mermaid
+flowchart LR
+    START(("START"))
+
+    A["<table><tr><td bgcolor='#00FFFF'>ES=0</td><td rowspan='2' bgcolor='#FFD700'><b>A</b><br/>2</td><td bgcolor='#B8860B'>EF=2</td></tr><tr><td bgcolor='#32CD32'>LS=0</td><td bgcolor='#3498DB'>LF=2</td></tr></table>"]
+
+    B["<table><tr><td bgcolor='#00FFFF'>ES=0</td><td rowspan='2' bgcolor='#FFD700'><b>B</b><br/>3</td><td bgcolor='#B8860B'>EF=3</td></tr><tr><td bgcolor='#32CD32'>LS=1</td><td bgcolor='#3498DB'>LF=4</td></tr></table>"]
+
+    C["<table><tr><td bgcolor='#00FFFF'>ES=2</td><td rowspan='2' bgcolor='#FFD700'><b>C</b><br/>2</td><td bgcolor='#B8860B'>EF=4</td></tr><tr><td bgcolor='#32CD32'>LS=2</td><td bgcolor='#3498DB'>LF=4</td></tr></table>"]
+
+    D["<table><tr><td bgcolor='#00FFFF'>ES=3</td><td rowspan='2' bgcolor='#FFD700'><b>D</b><br/>4</td><td bgcolor='#B8860B'>EF=7</td></tr><tr><td bgcolor='#32CD32'>LS=4</td><td bgcolor='#3498DB'>LF=8</td></tr></table>"]
+
+    E["<table><tr><td bgcolor='#00FFFF'>ES=4</td><td rowspan='2' bgcolor='#FFD700'><b>E</b><br/>4</td><td bgcolor='#B8860B'>EF=8</td></tr><tr><td bgcolor='#32CD32'>LS=4</td><td bgcolor='#3498DB'>LF=8</td></tr></table>"]
+
+    F["<table><tr><td bgcolor='#00FFFF'>ES=4</td><td rowspan='2' bgcolor='#FFD700'><b>F</b><br/>3</td><td bgcolor='#B8860B'>EF=7</td></tr><tr><td bgcolor='#32CD32'>LS=10</td><td bgcolor='#3498DB'>LF=13</td></tr></table>"]
+
+    G["<table><tr><td bgcolor='#00FFFF'>ES=8</td><td rowspan='2' bgcolor='#FFD700'><b>G</b><br/>5</td><td bgcolor='#B8860B'>EF=13</td></tr><tr><td bgcolor='#32CD32'>LS=8</td><td bgcolor='#3498DB'>LF=13</td></tr></table>"]
+
+    H["<table><tr><td bgcolor='#00FFFF'>ES=13</td><td rowspan='2' bgcolor='#FFD700'><b>H</b><br/>2</td><td bgcolor='#B8860B'>EF=15</td></tr><tr><td bgcolor='#32CD32'>LS=13</td><td bgcolor='#3498DB'>LF=15</td></tr></table>"]
+
+    FINISH(("FINISH"))
+
+    START --> A
+    START --> B
+
+    A --> C
+    A --> D
+    B --> D
+
+    C --> E
+    C --> F
+
+    D --> G
+    E --> G
+
+    F --> H
+    G --> H
+
+    H --> FINISH
+
+    classDef startEnd fill:#2ECC71,stroke:#1E8449,color:#fff,stroke-width:3px;
+    class START,FINISH startEnd;
+
+    %% Critical path
+    linkStyle 2 stroke:#E74C3C,stroke-width:4px;
+    linkStyle 4 stroke:#E74C3C,stroke-width:4px;
+    linkStyle 5 stroke:#E74C3C,stroke-width:4px;
+    linkStyle 7 stroke:#E74C3C,stroke-width:4px;
+    linkStyle 9 stroke:#E74C3C,stroke-width:4px;
+```
+ 
 
 ```mermaid
 flowchart LR
