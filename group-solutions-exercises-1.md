@@ -1,4 +1,4 @@
-# UAB Barcelona — Course 104682 - Information Systems Management of Operations, Quality and Processes
+# Information Systems Management of Operations, Quality and Processes
 ## Group Solutions
 
  This document contains the solutions for Exercises 1–3, using **ROY (Activity-on-Node)** diagrams and **Critical Path Method (CPM)** calculations.
