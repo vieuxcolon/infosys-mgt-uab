@@ -966,3 +966,93 @@ $$
 
 ---
 
+## Exercises Summary 
+
+## Key concepts by exercise
+
+ ### Exercise 1 — Activity Precedence / Logic Graph
+
+ - **Input:** Written descriptions of activity precedence relationships.
+- **Process:** Translate each precedence relationship into a directed connection.
+- **Output:** **Logic graph** showing activity dependencies.
+- **Nodes:** Activities.
+- **Arrows:** Precedence relationships / direction of flow.
+- **Main question:** **Which activities must happen before which other activities?**
+
+---
+
+ ### Exercise 2 — CPM / Network Scheduling
+
+ - **Input:** A predefined activity network with **activity durations** and dependencies.
+- **Process:**
+  1. **Forward pass:** calculate **ES (Earliest Start)** and **EF (Earliest Finish)**.
+  2. **Backward pass:** calculate **LS (Latest Start)** and **LF (Latest Finish)** without delaying the project.
+  3. Calculate **Float/Slack**.
+  4. Identify activities with **zero float**.
+- **Output:** A **CPM network** containing ES, EF, LS and LF for every activity, plus the critical path.
+- **Nodes:** Activities containing scheduling information.
+- **Arrows:** Precedence relationships / direction of flow.
+- **Main question:** **When can each activity start/finish, and which activities determine the project duration?**
+- **Key result:** **Critical Path + Project Duration.**
+
+ In short:
+
+ > **Exercise 2 = Schedule the network using CPM.**
+
+---
+
+ ### Exercise 3 — ROY Network / Critical Path
+
+ - **Input:** A table containing:
+  - Activities
+  - Immediate predecessors
+  - Activity durations
+- **Process:**
+  1. Convert the predecessor information into a **ROY (Activity-on-Node) network**.
+  2. Identify all relevant paths from Start to Finish.
+  3. Calculate the duration of each path.
+  4. Identify the **longest path**.
+- **Output:** **ROY network diagram \+ Critical Path + Project Duration.**
+- **Nodes:** Activities.
+- **Arrows:** Precedence relationships / direction of flow.
+- **Main question:** **What is the sequence of dependent activities that determines the project duration?**
+- **Key result:** **Critical Path + Project Duration.**
+
+ In short:
+
+ > **Exercise 3 = Build the ROY network and find the critical path.**
+
+---
+
+ ## The three exercises at a glance
+
+ |  | Exercise 1 | Exercise 2 | Exercise 3 |
+| --- | --- | --- | --- |
+| **Input** | Precedence descriptions | Network + durations | Activities + predecessors + durations |
+| **Main concept** | Precedence | **CPM scheduling** | **ROY + Critical Path** |
+| **Build network?** | Yes | Network already given | Yes |
+| **Forward pass?** | No | **Yes** | Not necessarily |
+| **Backward pass?** | No | **Yes** | Not necessarily |
+| **ES / EF?** | No | **Yes** | Not required |
+| **LS / LF?** | No | **Yes** | Not required |
+| **Float?** | No | **Yes** | Not required |
+| **Critical path?** | No durations → no | **Yes** | **Yes** |
+| **Main output** | Logic graph | CPM schedule + critical path | ROY graph + critical path |
+
+### The progression is essentially
+
+ **Exercise 1**
+
+ > **Precedence → Logic Graph**
+
+ ↓
+
+ **Exercise 2**
+
+ > **Network → Forward Pass → Backward Pass → Float → Critical Path**
+
+ ↓
+
+ **Exercise 3**
+
+ > **Activity Table → ROY Network → Path Durations → Critical Path**
