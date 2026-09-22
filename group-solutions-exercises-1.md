@@ -217,7 +217,7 @@ $$
 
  > **Important:** The original Exercise 2 input graph was not included with the exercise data provided here. The diagram below represents the network implied by the supplied timing table and its critical chain.
 
-
+```mermaid
 flowchart LR
     START(("START"))
 
@@ -277,7 +277,7 @@ flowchart LR
     linkStyle 5 stroke:#e74c3c,stroke-width:4px;
     linkStyle 6 stroke:#e74c3c,stroke-width:4px;
     linkStyle 7 stroke:#e74c3c,stroke-width:4px;
-
+```
 
 
 ```mermaid
